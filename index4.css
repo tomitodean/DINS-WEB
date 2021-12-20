@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: font-family 'Lato', sans-serif;
+    
+}
+body {
+    background-image:url(/IMAGENES/FONDO\ LOGIN\ 2.png); 
+
+}
+
+
+body::-webkit-scrollbar {
+    width: 12px;
+    background: #ADB5BD;
+} 
+body::-webkit-scrollbar-thumb {
+    background: #282828;
+    border-radius: 10px;
+    border-right: 2px solid #000000;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.logodinsiniciarsesion{
+    display: block;
+    width: 220px;
+    height: auto;
+    margin-left: auto; 
+    margin-right: auto;
+    position: relative;
+    top: 120px;
+}
+.fondologin{
+    background-color: #E9ECEF;
+    width: 600px;
+    height: 1000px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3.5%;
+}
+.textoregistrate{
+    background-color: #CED4DA;
+    color: #212529;
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    width: 350px;
+    height: auto;
+    text-align: center;
+    position: relative;
+    top: 165px;
+    margin-left: 125px;
+    border-radius: 10px;
+}
+input{
+    font-weight: bolder;
+    font-size: 20px;
+    background-color: transparent;
+    display: block;
+    text-align: center;
+    width: 450px;
+    height: 40px;
+    position: relative;
+    top: 200px;
+    margin-bottom: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    outline: none;
+    border-bottom: 3px;
+    border-bottom-style: solid;
+    border-image: linear-gradient(90deg, rgba(33,37,41,1) 5%, rgba(52,58,64,1) 47%, rgba(108,117,125,1) 79%) 1;
+}
+
+::placeholder{
+    text-align: center;
+    font-family: font-family 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    color: #212529;
+}
+label{
+    font-weight: 600;
+    font-size: 22px;
+    align-items: center;
+}
+
+
+.btn-crearcuenta {
+    background-image: linear-gradient(to right, #232526 0%, #414345  51%, #232526  100%)
+}
+    
+.btn-crearcuenta {
+    font-weight: 600;
+    font-size: 15px;
+    margin: 10px;
+    padding: 15px 80px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 8px;
+    display: block;
+    border: none;
+    position: relative;
+    margin-left: 165px;
+    top: 220px;
+    }
+
+.btn-crearcuenta:hover {
+    background-position: right center; 
+    color: #fff;
+    text-decoration: none;
+    }
+.textooregístrateusando{
+    position: relative;
+    top: 260px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.logogoogle{
+    width: 45px;
+    height: auto;
+    position: relative;
+    top: 295px;
+    margin-left: 46%;
+}
+.iniciarsesionabajo{
+    position: relative;
+    top: 360px;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    
+}
+a{
+    color: #212529;
+    text-decoration-line: none;
+    font-weight: 700;
+    margin: 4px;
+}
+.iniciarsesionabajo:hover{
+    font-weight: 900;
+}
+.menuprincipal{
+    position: relative;
+    margin-left: 8px;
+    top: -537px;
+}
+.flechasalir{
+    width: 25px;
+    position: relative;
+    top: -530px;
+    margin-left: 20px;
+}

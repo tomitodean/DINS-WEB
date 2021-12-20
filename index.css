@@ -1,0 +1,290 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body {
+    background-color: #212529;
+}
+body::-webkit-scrollbar {
+    width: 12px;
+    background: #ADB5BD;
+} 
+body::-webkit-scrollbar-thumb {
+    background: #282828;
+    border-radius: 10px;
+    border-right: 2px solid #000000;
+} 
+html{
+    scroll-behavior: smooth;
+}
+.navegador {
+    display: flex;
+    justify-content: start;
+    align-items: baseline;
+    width: 100%;
+    height: 120px;
+    margin-block: 35px;
+    
+}
+.logodins {
+    width: 120px;
+    height: auto;
+    margin-left: 80px;
+    margin-right: 10rem;
+    position: relative;
+    top: 5px;
+}
+.nav {
+    width: 700px;
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-top: 40px;
+    margin-left: 300px;
+}
+.navul {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    color:#282929;
+    display: flex;
+    justify-content: flex-end;
+    list-style:none;
+    padding-right: 15rem;
+    margin-top: revert;
+}
+
+.navlist {
+    text-decoration: none;
+    padding-right: 1.5rem;
+      
+}
+.navlink{
+    color: #F8F9FA;
+    font-size: 1rem;
+    text-decoration: none;
+}
+.nav {
+    width: 700px;
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-top: 30px;
+
+}
+
+
+/* LOGIN DINS */
+.user{
+    width: 55px;
+    position: relative;
+    margin-left: 1800px;
+    top: -120px;
+}
+.carrito {
+    width: 40px;
+    position: relative;
+    margin-left: 1880px;
+    top: -175px;
+}
+
+.registrate{
+    color: #343A40;
+    position: relative;
+    margin-left: 300px;
+    top: 27px;
+}
+
+.iniciasesion{
+    color: #343A40;
+    position: relative;
+    margin-left: 1000px;
+    top: -10px;
+}
+
+
+
+
+/* INICIO */
+
+.dinsinicio {
+    width: 1200px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    top: 80px;
+    margin-block-end: 440px;
+}
+
+.textoinicio{
+    color: #F8F9FA;
+    font-weight: 300;
+    font-size: 60px;
+    letter-spacing: 30px;
+    display:flex;
+    justify-content: center;
+    margin-top: -30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* ACERCA DE */
+
+.mimain {
+    background-color: #DEE2E6;
+    background-position: 40% 60%;
+    width: 100%;
+    height: 50vh; 
+}
+
+.acercadetexto {
+    font-weight: 300;
+    font-style: italic;
+    font-size: 38px;
+    letter-spacing: 1px;
+    width: 2000px;
+    position: relative;
+    top: 230px;
+    margin-left: auto;   
+    margin-right: auto;
+}
+
+/* CONTACTO */
+
+.mimain2 {
+    background-color: #343A40;
+    background-position: 20% 40%;
+    width: 100%;
+    height: 110vh; 
+}
+
+.fondocontacto {
+    font-weight: 300;
+    font-style: italic;
+    font-size: 38px;
+    letter-spacing: 1px;
+    width: 2000px;
+    position: relative;
+    top: 280px;
+    margin-left: auto;   
+    margin-right: auto;
+}
+.contactenostexto {
+    color: #DEE2E6;
+    font-weight: 700;
+    font-size: 50px;
+    letter-spacing: 2.5px;
+    position: relative;
+    margin-left: 950px;
+    top: 160px;
+}
+input {
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    color: #282929;
+    margin-bottom: 10px;
+    border-radius: 2px;
+    height: 40px;
+    width: 700px;
+    border: none;
+    text-align: center;
+    position: relative;
+    margin-left: 780px;
+    top: 150px;
+    font:inherit;
+    font-size: 20px;
+    padding: 0.2em 0.5em;
+}
+textarea {
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: #282929;
+    width: 685px;
+    height: 300px;
+    position: relative;
+    margin-left: 780px;
+    top: 209px;
+    padding: 0.8em 0.8em;
+}
+
+button {
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 40px;
+    width: 350px;
+    position: relative;
+    margin-left: 980px;
+    top: 300px;
+    padding: 0.8em 0.8em;
+}
+
+.email {
+  background-color: #DEE2E6;
+  position: relative;
+  top: 200px;
+}
+
+.contraseña {
+    background-color: #DEE2E6;
+    position: relative;
+    top: 220px;
+}
+.mensaje {
+    background-color: #DEE2E6;
+    position: relative;
+    top: 240px;
+  }
+.enviar {
+    background-color: #CED4DA;
+  }
+
+.enviar:hover {
+    background: #495057;
+    color: #F8F9FA;
+    border-bottom-color:#000000;  
+}
+
+footer{
+    color: #F8F9FA;
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    position: relative;
+    top: 20px;
+    font-size: 20px;
+}
+.redessociales{
+    display: flex;
+    position: relative;
+    margin-left: 1060px;
+    top: 480px;
+    gap: 10px 20px; 
+    row-gap: 10px;
+    column-gap: 40px;
+}
+.redes{
+    width: 70px;
+}
+
+
+/* BOTON FLOTANTE WHATSAPP */
+
+.btn-whatsapp {
+    display:block;
+    width:70px;
+    height:70px;
+    color: ffffff;
+    position: fixed;
+    right:20px;
+    bottom:20px;
+    border-radius:50%;
+    line-height:80px;
+    text-align:center;
+    z-index:999;
+}
+
+
